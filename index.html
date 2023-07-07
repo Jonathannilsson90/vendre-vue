@@ -11,8 +11,8 @@
   <body>
     <div id="app">
    <h1>{{titel}}</h1>
-     <ul class="card">
-        <li class="li"  v-for="user in users" :key="user.id">
+     <ul>
+        <li v-for="user in users" :key="user.id">
             
             <p>First name: {{user.firstName}}</p>
             <p>Last name: {{user.lastName}}</p>
