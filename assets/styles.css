@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+}
+
+.avatar{
+border-radius:  70px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li {
+    margin: 20px
+}

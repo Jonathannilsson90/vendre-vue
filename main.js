@@ -7,7 +7,7 @@
 const app = Vue.createApp({
     data(){
         return {
-            titel: "praktikprov",
+            titel: "Praktikprov",
             users: []
         }
     },

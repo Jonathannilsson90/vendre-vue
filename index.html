@@ -10,13 +10,13 @@
   </head>
   <body>
     <div id="app">
-   <div>{{titel}}</div>
-     <ul>
-        <li v-for="user in users" :key="user.id">
+   <h1>{{titel}}</h1>
+     <ul class="card">
+        <li class="li"  v-for="user in users" :key="user.id">
             <p>Email: {{user.email}}</p>
             <p>First name: {{user.firstName}}</p>
             <p>Last name: {{user.lastName}}</p>
-            <img :src="user.avatar" alt="User avatar">
+            <img class="avatar" :src="user.avatar" alt="User avatar">
         </li>
      </ul>
         </div>
