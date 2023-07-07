@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue-project</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+   <div>{{titel}}</div>
+     <ul>
+        <li v-for="user in users" :key="user.id">
+            <p>Email: {{user.email}}</p>
+            <p>Firstname {{user.firstName}}</p>
+            <p>Lastname {{user.lastName}}</p>
+            <img :src="user.avatar" alt="User avatar">
+        </li>
+     </ul>
+        </div>
+   
+    <script src="/main.js"></script>
+
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>
