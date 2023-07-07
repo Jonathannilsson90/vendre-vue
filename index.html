@@ -14,8 +14,8 @@
      <ul>
         <li v-for="user in users" :key="user.id">
             <p>Email: {{user.email}}</p>
-            <p>Firstname {{user.firstName}}</p>
-            <p>Lastname {{user.lastName}}</p>
+            <p>First name: {{user.firstName}}</p>
+            <p>Last name: {{user.lastName}}</p>
             <img :src="user.avatar" alt="User avatar">
         </li>
      </ul>
