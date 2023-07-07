@@ -11,5 +11,11 @@ ul{
 
 }
 li {
-    margin: 20px
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+p{
+    font-weight: bold;
 }

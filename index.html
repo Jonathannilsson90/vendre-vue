@@ -13,9 +13,10 @@
    <h1>{{titel}}</h1>
      <ul class="card">
         <li class="li"  v-for="user in users" :key="user.id">
-            <p>Email: {{user.email}}</p>
+            
             <p>First name: {{user.firstName}}</p>
             <p>Last name: {{user.lastName}}</p>
+            <a :href="'mailto:' + user.email" >Email</a>
             <img class="avatar" :src="user.avatar" alt="User avatar">
         </li>
      </ul>
