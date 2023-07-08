@@ -1,13 +1,8 @@
-///Runda profilbilder - CSS
-///Namnet, följt av en kontaktlänk som leder till de anställdas e-postadress
-///Utöver det kan du designa sidan hur du vill
-
-
 
 const app = Vue.createApp({
     data(){
         return {
-            titel: "Praktikprov",
+            titel: "Contact us",
             users: []
         }
     },
